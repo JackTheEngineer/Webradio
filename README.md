@@ -1,6 +1,6 @@
 # Webradio
 This is the software / 
-setup package for the Raspberry Pi zero as a Webradio
+setup package for the Raspberry Pi zero as a Webradio.
 
 ## Webradio Setup
 
@@ -53,4 +53,16 @@ And copy your playlist into the folder playlists.
 	
 	sudo systemctl enable mpd.service
 	sudo systemctl start mpd.service
+
+
+### Layout of GPIO numbers on my specific board:
+
+	Button | GPIO Number
+	------------
+	enter  | 10
+	center | 15 
+	left   | 17
+	right  | 27
+	up     | 24
+	down   | 9
 
