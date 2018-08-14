@@ -1,0 +1,51 @@
+#EXTM3U
+#EXTINF:-1,BBC-Radio 1
+http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_p
+#EXTINF:-1,BBC-Radio 2
+http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio2_mf_p
+#EXTINF:-1,BBC-Radio 4
+http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p
+#EXTINF:-1,BBC-Radio 5 live
+http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio5live_mf_p
+#EXTINF:-1,BBC-Radio 6
+http://bbcmedia.ic.llnwd.net/stream/bbcmedia_6music_mf_p
+#EXTINF:-1,BR-Puls
+http://br-puls-live.cast.addradio.de/br/puls/live/mp3/128/stream.mp3
+#EXTINF:-1,Antenne-Bayern
+http://mp3channels.webradio.antenne.de/antenne
+#EXTINF:-1,Antenne-Chillout
+http://mp3channels.webradio.antenne.de/chillout
+#EXTINF:-1,Antenne-Rock
+http://mp3channels.webradio.antenne.de/rockantenne
+#EXTINF:-1,D-Radio
+http://stream.dradio.de/7/249/142684/v1/gnl.akacast.akamaistream.net/dradio_mp3_dlf_m
+#EXTINF:-1,D-Wissen
+http://dradio_mp3_dwissen_m.akacast.akamaistream.net/7/728/142684/v1/gnl.akacast.akamaistream.net/dradio_mp3_dwissen_m
+#EXTINF:-1,Top100-Station
+http://87.230.101.12/
+#EXTINF:-1,B5-Aktuell
+http://br-mp3-b5aktuell-m.akacast.akamaistream.net/7/779/142694/v1/gnl.akacast.akamaistream.net/br_mp3_b5aktuell_m
+#EXTINF:-1,B5-Plus 
+http://br-mp3-b5plus-m.akacast.akamaistream.net/7/1/142695/v1/gnl.akacast.akamaistream.net/br_mp3_b5plus_m
+#EXTINF:-1,Bayern-Klassik
+http://br-mp3-br-klassik-m.akacast.akamaistream.net/7/120/142693/v1/gnl.akacast.akamaistream.net/br_mp3_br-klassik_m
+#EXTINF:-1,idobi Anthm
+http://69.46.75.69:80
+#EXTINF:-1,Blackbeats
+http://stream.blackbeatslive.de/
+#EXTINF:-1,ByteFM
+http://streams.byte.fm/live/mp3-128/direkt
+#EXTINF:-1,BigFm
+http://217.151.152.245:80/bigfm-mp3-64
+#EXTINF:-1,Detektor-Musik
+http://detektor.fm/stream/mp3/musik/
+#EXTINF:-1,Detektor-News
+http://detektor.fm/stream/mp3/wort/
+#EXTINF:-1,FM4
+mms://apasf.apa.at/fm4_live_worldwide
+#EXTINF:-1,1Live
+http://1live.akacast.akamaistream.net/7/706/119434/v1/gnl.akacast.akamaistream.net/1live
+#EXTINF:-1,JazzRadio-Berlin
+https://streaming.radio.co/s774887f7b/listen
+#EXTINF:-1,PureStream-Klassik
+http://classic.purestream.net/Classic-mp3

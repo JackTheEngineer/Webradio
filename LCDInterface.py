@@ -8,7 +8,7 @@ def lcd_show_text(lcd, strings, alle_shifts=(0, 0, 0, 0)):
     for i in range(4 - len(strings)):
         strings.append("")
 
-    # Über jede Zeile 
+    # Uber jede Zeile 
     for zeilen_idx in range(4):
 
         aktuelle_zeile = strings[zeilen_idx]
