@@ -19,7 +19,7 @@ class Buttons(object):
     def get_signals(self):
         current = []
 
-        # A "not" operation can be implemented as (x-1)**2
+        # A "not x" operation can be implemented as (x-1)**2
         # I used this, because the switch was pressed all the time, and released
         # whenever the button was pressed 
         current.append((self.GPIO.input(self.btn_list[0]) - 1)**2)
