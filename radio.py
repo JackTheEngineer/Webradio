@@ -1,7 +1,5 @@
 from copy import deepcopy
 import buttons as btns
-
-
         
 
 class Controller(object):
