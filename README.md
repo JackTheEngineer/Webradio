@@ -3,7 +3,6 @@ This is the software /
 setup package for the Raspberry Pi zero as a Webradio.
 
 ## Webradio Setup
-
 ### Use PWM Audio 
 Please google  "adafruit raspberry pi zero audio output" 
 and build the schematic.
@@ -19,12 +18,6 @@ dtoverlay=pwm-2chan,pin=18,func=2,pin2=13,func2=4
 	sudo pip install RPi.GPIO
 	sudo apt-get install mpc mpd alsa-utils
 
-### test audio
-	aplay /usr/share/sounds/alsa/Front_Center.wav
-
-### for changing the volume
-	alsamixer 
-	
 ### Audio Output
 Here the output is being set to 1, which is the headphone jack
 Setting the output to 2 switches to HDMI. 
@@ -32,6 +25,12 @@ The default setting is 0 which is automatic.
 
 	amixer cset numid=3 1	
 
+### test audio
+	aplay /usr/share/sounds/alsa/Front_Center.wav
+
+### for changing the volume
+	alsamixer 
+	
 ### backup /etc/mpd.conf by the file in the project
 	
 	sudo cp /etc/mpd.conf /etc/mpd.conf.backup
@@ -46,14 +45,18 @@ In the file /etc/mpd.conf within the audio_output settings, change the mixer_typ
 If you copied the given file, create the folders:
 	
 	mkdir -p /home/pi/.mpd/playlists
+	mkdir -p /home/pi/music
+	mkdir -p /home/pi/.mpd/playlists
 
 And copy your playlist into the folder playlists.
+
+    	 cp /home/pi/Webradio/playlist.m3u /home/pi/.mpd/playlists
+
 
 ### Enable and start mpd service
 	
 	sudo systemctl enable mpd.service
 	sudo systemctl start mpd.service
-
 
 ### Layout of GPIO numbers on my specific board:
 

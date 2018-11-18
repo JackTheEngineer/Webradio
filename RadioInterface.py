@@ -52,10 +52,13 @@ class Radio(object):
 
     def current_station_index(self):
         cmd_output_string = check_output(['mpc']).decode('utf-8')
-        # The index in mpc is handled from  1- end
+        # The index in mpc is handled from  1 - end
         match = re.search('\[playing\] \#(\d+)\/\d+', cmd_output_string)
         # The index in the above radio module is handled from 0 - (end -1)
-        return int(match.group(1)) - 1
+        if(match):
+            return int(match.group(1)) - 1
+        else:
+            return 0
 
 if __name__ == '__main__':
     rad = Radio()
